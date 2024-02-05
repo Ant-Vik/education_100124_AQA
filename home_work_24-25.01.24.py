@@ -32,8 +32,9 @@
 '''
 
 # name = "Name"
-# surname = "Surname"
-# print(f'{name} {surname}')
+# surname = " Surname"
+# full_name = name + surname
+# print(full_name)
 
 
 '''
@@ -49,8 +50,10 @@
 #     age = 29,
 #     city = "Kiev"
 # )
-# print(person.keys())
-# print(person.values())
+# keys = person.keys()
+# value = person.values()
+# print(keys)
+# print(value)
 
 
 '''
@@ -79,8 +82,9 @@
 
 # lst = [1, 2, 3, 4, 5]
 #
-# for i in range(1, 6):
-#     print(i * 2)
+# for i in lst:
+#     squ = i * 2
+#     print(squ)
 
 
 '''
@@ -145,8 +149,9 @@
 # s = "Python"
 # def reverse_string(string):
 #     reverse = string[::-1]
-#     print(reverse)
-# reverse_string(s)
+#     return reverse
+# result = reverse_string(s)
+# print(result)
 
 
 '''
@@ -184,13 +189,9 @@
 '''
 
 # def is_positive(number):
-#     if number >= 0:
-#         number = True
-#     else:
-#         number = False
-#     return number
+#     return number > 0
 #
-# result = is_positive(0)
+# result = is_positive(1)
 # print(result)
 
 '''
@@ -204,6 +205,7 @@
 #         print("hello world!")
 #     else:
 #         print(f'hello {text}!')
+#     return text
 #
 # greeting()
 
@@ -215,7 +217,7 @@
 #         print("hello world!")
 #     else:
 #         print(f'hello {text}!')
-#
+#     return text
 # greeting("")
 
 
